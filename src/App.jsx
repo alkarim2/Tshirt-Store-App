@@ -1,4 +1,5 @@
-
+import './App.css';
+import { useState } from 'react';
 import whiteText from './assets/whiteText.jpg';
 import blackText from './assets/blackText.jpg';
 import blueText from './assets/blueText.jpg';
@@ -10,6 +11,12 @@ import sleevelessTshirt from './assets/sleevelessTshirt.jpg';
 import tshirtStore from './assets/tshirtStoreText.jpg';
 
 function App(){
+  const [smallWhiteShortsleevedTshirtValue, setSmallWhiteShortsleevedTshirtValue] = useState(0);
+  
+   const handleChange = (e) => {
+      setSmallWhiteShortsleevedTshirtValue(e.target.value);
+    };
+
   return (
     <div>
       <div>
@@ -33,6 +40,11 @@ function App(){
       </div>
       <div>
           <img src={shortsleevedTshirt}/>
+          <input
+                value={smallWhiteShortsleevedTshirtValue}
+                onChange={handleChange}
+                type="number"
+          />
       </div>
       <div>
           <img src={sleevelessTshirt}/>
