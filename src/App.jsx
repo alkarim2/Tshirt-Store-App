@@ -12,10 +12,7 @@ import tshirtStore from './assets/tshirtStoreText.jpg';
 
 function App(){
   const [smallWhiteShortsleevedTshirtValue, setSmallWhiteShortsleevedTshirtValue] = useState(0);
-  
-   const handleChange = (e) => {
-      setSmallWhiteShortsleevedTshirtValue(e.target.value);
-    };
+  const [mediumWhiteShortsleevedTshirtValue, setMediumWhiteShortsleevedTshirtValue] = useState(0);
 
   return (
     <div>
@@ -42,7 +39,12 @@ function App(){
           <img src={shortsleevedTshirt}/>
           <input
                 value={smallWhiteShortsleevedTshirtValue}
-                onChange={handleChange}
+                onChange={e => setSmallWhiteShortsleevedTshirtValue(e.target.value)}
+                type="number"
+          />
+          <input
+                value={mediumWhiteShortsleevedTshirtValue}
+                onChange={e => setMediumWhiteShortsleevedTshirtValue(e.target.value)}
                 type="number"
           />
       </div>
