@@ -17,7 +17,7 @@ The challenge was to create a T-shirt Store. The languages used were React and H
 ## Overview
 
 ### Motivation
-I wanted to create a t-shirt Store.
+I wanted to create a t-shirt store.
 
 ### Objective
 A t-shirt store was created.
