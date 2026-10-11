@@ -15,6 +15,7 @@ function App(){
   const [mediumWhiteShortsleevedTshirtValue, setMediumWhiteShortsleevedTshirtValue] = useState(0);
   const [largeWhiteShortsleevedTshirtValue, setLargeWhiteShortsleevedTshirtValue] = useState(0);
   const [smallBlackShortsleevedTshirtValue, setSmallBlackShortsleevedTshirtValue] = useState(0);
+  const [mediumBlackShortsleevedTshirtValue, setMediumBlackShortsleevedTshirtValue] = useState(0);
 
   return (
     <div>
@@ -57,6 +58,11 @@ function App(){
           <input
                 value={smallBlackShortsleevedTshirtValue}
                 onChange={e => setSmallBlackShortsleevedTshirtValue(e.target.value)}
+                type="number"
+          />
+          <input
+                value={mediumBlackShortsleevedTshirtValue}
+                onChange={e => setMediumBlackShortsleevedTshirtValue(e.target.value)}
                 type="number"
           />
       </div>
