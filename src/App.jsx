@@ -67,7 +67,7 @@ function App(){
                 type="number"
           />
           <input
-                value={mediumBlackShortsleevedTshirtValue}
+                value={largeBlackShortsleevedTshirtValue}
                 onChange={e => setLargeBlackShortsleevedTshirtValue(e.target.value)}
                 type="number"
           />
