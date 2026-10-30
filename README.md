@@ -17,19 +17,21 @@ The challenge was to create a T-shirt Store. The languages used were React and H
 ## Overview
 
 ### Motivation
-I wanted to create a t-shirt store.
+I wanted to create a t-shirt store using React.
 
 ### Objective
-A t-shirt store was created.
+A t-shirt store was created using React.
 
 ### Learning Outcomes
-- Deployed front-end application
+- Deployed a front-end React application
+- Increased my React knowledge
 
 ---
 
 ## Features
 
 - Fully responsive design
+- Commerce store
 
 ---
 
