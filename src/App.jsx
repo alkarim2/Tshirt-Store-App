@@ -18,70 +18,9 @@ function App(){
   const [mediumBlackShortsleevedTshirtValue, setMediumBlackShortsleevedTshirtValue] = useState(0);
   const [largeBlackShortsleevedTshirtValue, setLargeBlackShortsleevedTshirtValue] = useState(0);
   const [smallBlueShortsleevedTshirtValue, setSmallBlueShortsleevedTshirtValue] = useState(0);
+  const [mediumBlueShortsleevedTshirtValue, setMediumBlueShortsleevedTshirtValue] = useState(0);
 
   return (
-    <div>
-      <div>
-          <img src={tshirtStore}/>
-      </div>
-      <div>
-          <img src={whiteText}/>
-          <img src={blackText}/>
-          <img src={blueText}/>
-      </div>
-      <div>
-          <img src={sText}/>
-          <img src={mText}/>
-          <img src={lText}/>
-          <img src={sText}/>
-          <img src={mText}/>
-          <img src={lText}/>
-          <img src={sText}/>
-          <img src={mText}/>
-          <img src={lText}/>
-      </div>
-      <div>
-          <img src={shortsleevedTshirt}/>
-          <input
-                value={smallWhiteShortsleevedTshirtValue}
-                onChange={e => setSmallWhiteShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={mediumWhiteShortsleevedTshirtValue}
-                onChange={e => setMediumWhiteShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={largeWhiteShortsleevedTshirtValue}
-                onChange={e => setLargeWhiteShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={smallBlackShortsleevedTshirtValue}
-                onChange={e => setSmallBlackShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={mediumBlackShortsleevedTshirtValue}
-                onChange={e => setMediumBlackShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={largeBlackShortsleevedTshirtValue}
-                onChange={e => setLargeBlackShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-          <input
-                value={smallBlueShortsleevedTshirtValue}
-                onChange={e => setSmallBlueShortsleevedTshirtValue(e.target.value)}
-                type="number"
-          />
-      </div>
-      <div>
-          <img src={sleevelessTshirt}/>
-      </div>
-    </div>
     );
 }
 
