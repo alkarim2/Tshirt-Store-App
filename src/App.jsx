@@ -20,8 +20,7 @@ function App(){
   const [smallBlueShortsleevedTshirtValue, setSmallBlueShortsleevedTshirtValue] = useState(0);
   const [mediumBlueShortsleevedTshirtValue, setMediumBlueShortsleevedTshirtValue] = useState(0);
 
-  return (
-    );
+  return ;
 }
 
 export default App;
