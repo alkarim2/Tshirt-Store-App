@@ -20,6 +20,7 @@ function App(){
   const [smallBlueShortsleevedTshirtValue, setSmallBlueShortsleevedTshirtValue] = useState(0);
   const [mediumBlueShortsleevedTshirtValue, setMediumBlueShortsleevedTshirtValue] = useState(0);
   const [largeBlueShortsleevedTshirtValue, setLargeBlueShortsleevedTshirtValue] = useState(0);
+  const [smallWhiteSleevelessTshirtValue, setSmallWhiteSleevelessTshirtValue] = useState(0);
 
   return (
     <div>
@@ -92,6 +93,11 @@ function App(){
       </div>
       <div>
           <img src={sleevelessTshirt} alt="Sleeveless t-shirt"/>
+          <input
+                value={smallWhiteSleevelessTshirtValue}
+                onChange={e => setSmallWhiteSleevelessTshirtValue(e.target.value)}
+                type="number"
+          />
       </div>
     </div>
     );
